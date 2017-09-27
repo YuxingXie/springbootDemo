@@ -28,6 +28,7 @@ classpath:/static/
 如果使用的IDE是intellij idea，可以点击tool button中的MavenProjects，找到Plugins-->spring-boot-->spring-boot:run运行，也可以右击spring-boot:run-->Create 'xxx[spring-boot:run]',这样会创建一个快捷run按钮。
 ### 一些问题
 - intellij 无法解析thymeleaf表达式
+- 如何在IDE中进行debug
 - 因为我比较懒，没有真正实现jdbc连接
 
 

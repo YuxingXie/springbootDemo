@@ -16,7 +16,7 @@ public class ContactRepository {
         List<Contact> contacts=new ArrayList<Contact>();
         Contact contact1=new Contact();
         contact1.setFirstName("宇星");
-        contact1.setLastName("谢");
+        contact1.setLastName("谢s");
         contact1.setEmailAddress("xieyuxing008@gmail.com");
         contact1.setPhoneNumber("18888888888");
         contacts.add(contact1);

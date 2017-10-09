@@ -29,7 +29,7 @@ classpath:/static/
 ### 一些问题
 - intellij 无法解析thymeleaf表达式
 - 如何在IDE中进行debug
-- 因为我比较懒，没有真正实现jdbc连接
+- 因为我比较懒，没有真正实现jpa
 
 
   

@@ -26,6 +26,20 @@ classpath:/static/
 - 如何启动springboot  
 用maven package打成jar(not war)包，包在target目录中，命令行java -jar target/jpa.jar启动springboot.
 如果使用的IDE是intellij idea，可以点击tool button中的MavenProjects，找到Plugins-->spring-boot-->spring-boot:run运行，也可以右击spring-boot:run-->Create 'xxx[spring-boot:run]',这样会创建一个快捷run按钮。
+
+### 整合spring-data-jpa(mysql为例)
+- mysql建表
+```sql
+CREATE TABLE user(
+        id int not null primary key,
+        name char(20),
+        age int
+    );
+```
+- 创建配置类
+需要添加的依赖见pom.xml
+
+- 单元测试
 ### 一些问题
 - intellij 无法解析thymeleaf表达式
 - 如何在IDE中进行debug

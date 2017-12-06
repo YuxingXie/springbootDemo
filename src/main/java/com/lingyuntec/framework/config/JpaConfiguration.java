@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * Created by xieyuxing on 2017/11/30.
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.lingyuntec.db")
+@EnableJpaRepositories(basePackages = "com.lingyuntec.repositories")
 public class JpaConfiguration {
 }

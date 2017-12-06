@@ -1,4 +1,6 @@
 ### 构建一个springboot web应用程序
+除非特别喜欢maven，推荐使用gradle版本，gradle版本见 https://github.com/YuxingXie/springBootDataJpaGradle
+
 ####构建内容包括：
 - maven
 - spring-boot 
@@ -31,15 +33,15 @@ classpath:/static/
 - mysql建表
 ```sql
 CREATE TABLE user(
-        id int not null primary key,
+        id char(20) not null primary key,
         name char(20),
         age int
     );
 ```
-- 创建配置类
+- 配置数据源
 需要添加的依赖见pom.xml
 
-- 单元测试
+- 创建repository类
 ### 一些问题
 - intellij 无法解析thymeleaf表达式
 - 如何在IDE中进行debug
